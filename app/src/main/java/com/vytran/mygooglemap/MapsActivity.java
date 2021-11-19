@@ -66,7 +66,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onMapLongClick(LatLng latLng) {
                 mMap.clear();
 
-
                 //Get full address
                 Geocoder geocoder;
                 List<Address> addresses;
